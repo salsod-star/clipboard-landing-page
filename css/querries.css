@@ -1,0 +1,110 @@
+@media screen and (max-width: 1085px) and (min-width: 500px){
+    .overview p{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 533px) and (min-width: 300px){
+    .overview h1{
+        width: 100%;
+    }
+    .overview p{
+        width: 100%;
+    }
+
+    .overview button{
+        display: block;
+        margin-bottom: 20px !important;
+        padding: 15px 80px;
+        margin: auto;
+        font-size: 100%;
+    }
+
+    .ft-section{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .ft-nav {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(5, 0.5fr) !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ft-nav li{
+        justify-self: center;
+    }
+    
+
+    .icon{
+        justify-content: center;
+    }
+
+    .logo{
+        width: 30%;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 1107px) and (min-width: 646px){
+    .side-text-tips{
+        width: 100%;
+        margin-bottom: 3%;
+        font-size: 90%;
+    }
+
+    .side-text-tips p{
+        width: 100%;
+    }
+
+    .section-keep-track p{
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width: 645px){
+    .section-keep-track p{
+        width: 100%;
+    }
+
+    .lil-wrap{
+        margin-top: 55px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lil-wrap img{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 15%;
+    }
+
+    .side-text {
+        width: 100%;
+        float: left;
+        margin-top: 15%;
+        margin-left: 0px;
+    }
+
+    .side-text-tips p{
+        width: 100%;
+    }
+
+    .clipboard-section {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 734px) and (min-width:300px){
+    .clipboard-section p{
+        width: 80%;
+    }
+}

@@ -322,16 +322,16 @@ footer{
     padding: 10px;
 }
 
-.icon a:hover > .facebook{
-    background-color: hsl(171, 66%, 44%);
+.icon #facebook:hover {
+    filter: brightness(85%) hue-rotate(45deg) sepia(50%) contrast(43%) invert(83%) saturate(3483%);
+}
+ 
+.icon a:hover > #twitter{
+    filter: brightness(20%) hue-rotate(196deg) sepia(50%) contrast(30%) invert(80%) saturate(17320%);
 }
 
-.icon a:hover > .twitter{
-    background-color: hsl(171, 66%, 44%);
-}
-
-.icon a:hover > .instagram {
-    background-color: hsl(171, 66%, 44%);
+.icon a:hover > #instagram {
+    filter: brightness(50%) hue-rotate(86deg) sepia(10%) contrast(97%) saturate(2878%);
 }
 
 .attribution {

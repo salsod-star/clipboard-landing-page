@@ -34,10 +34,6 @@ body{
     background-attachment: fixed;
     width: 100%;
     height: auto;
-}
-
-.bg-image>span{
-    display: block;
     padding: 3em 0px 1.2em 0px;
     text-align: center;
 }

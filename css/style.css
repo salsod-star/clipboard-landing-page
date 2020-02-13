@@ -26,15 +26,15 @@ body{
 /*------------------------*/
 
 .bg-image {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4),
-                                     rgba(255, 255, 255, 0.2)),
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1),
+                                     rgba(255, 255, 255, 0.7)),
                         url(../images/bg-header-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: auto;
-    padding: 3em 0px 1.2em 0px;
+    padding: 4em 0px 2em 0px;
     text-align: center;
 }
 
